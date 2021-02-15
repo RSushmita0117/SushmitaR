@@ -1,0 +1,18 @@
+create database admin;
+use admin;
+create table user(username varchar(50), pwd varchar(20));
+
+drop table user;
+create table user(username varchar(50), pwd varchar(20));
+
+
+
+
+create database register;
+
+use register;
+
+create table writers(Id int(5), Firstname varchar(20), Lastname varchar(20), 
+Email varchar(50), username varchar(20), pwd varchar(20));
+
+select * from writers;
